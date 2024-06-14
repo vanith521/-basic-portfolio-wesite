@@ -1,0 +1,72 @@
+header{
+    background-color: #081b29;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.logo {
+    font-size: 2em;
+    color: white;
+}
+.menubar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px;
+
+}
+.menubar a:hover{
+    color: aqua;
+}
+.txt {
+    color: white;
+    padding-left: 30px;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    position: absolute;
+}   
+.txt h1{
+    font-size: 40px;
+}
+.txt p{
+    color: wheat;
+}
+.txt i{
+    color: wheat;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.txt i:hover{
+    color:red;
+}
+.txt button{
+    font-size: 15px;
+    background-color: transparent;
+    color: skyblue;
+    border-radius: 10px;
+    transition: 0.4s;
+    border-color: aqua;
+}
+.txt button:hover{
+    border: 2px solid navy;
+    background: transparent;
+}
+ img{
+    object-position:center right;
+    border: 2px solid skyblue ;
+    background: #081b29;
+    max-width: 70%;
+    max-height: 70%;
+    height: auto;
+    flex-shrink: inherit;
+    
+}
